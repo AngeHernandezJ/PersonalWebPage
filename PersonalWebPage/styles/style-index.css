@@ -1,4 +1,32 @@
-p{
+body{
+    background-color:aliceblue;
+}
+
+h1{
+    font-size: 45px;
+}
+
+#en-name{
+    color: rgba(32, 53, 146, 0.979);
+}
+hr{
+    height: 4px;
+    color: blue;
+    background-color:rgba(64, 140, 184, 0.979);
+}
+
+#d-nav{
+    
+}
+/*p{
     margin-top: 0;
     margin-bottom: 0;
+}*/
+
+.container{
+
+}
+
+ul{
+    margin-top: 0;
 }

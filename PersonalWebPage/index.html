@@ -7,40 +7,47 @@
     <link rel="stylesheet" href="./styles/style-index.css">
 </head>
 <body>
-    <h1>Personal Webpage</h1>
+    <h1>Personal Webpage: <span id="en-name">Angelica Hernández Jaimes</span></h1>
+    <br>
     <hr>
-    <div id="d-cv">
+    <div class="container" id="d-cv">
         <div id="d-nav">
             <nav>
                 <table>
                     <tr>
-                        <td><a href="#">Información de contacto</a></td>
-                        <td><a href="#">Educación</a></td>
-                        <td><a href="">Experiencia laboral-profesional</a></td>
+                        <td><a href="#inf-cont">Información de contacto</a></td>
+                        <td><a href="#edu">Educación</a></td>
+                        <td><a href="#exp-lab">Experiencia laboral-profesional</a></td>
                         <!--<td><a href="#">Proyectos académicos</a></td>-->
-                        <td><a href="">Skills</a></td>
+                        <td><a href="#skills">Skills</a></td>
                         <!--<td><a href="">Hard skills</a></td>-->
-                        <td><a href="">Certificaciones/Cursos</a></td>
-                        <td><a href="">Idiomas</a></td>
+                        <td><a href="#cursos">Certificaciones/Cursos</a></td>
+                        <td><a href="#idiomas">Idiomas</a></td>
                     </tr>
                 </table>
             </nav>
         </div>
         <hr>
-        <div>
-            <h3>Información de contacto</h3>
+        <br>
+        <div class="container">
+            <h3 id="inf-cont">Información de contacto</h3>
             <p>Angelica Hernández Jaimes</p>
             <p>Número de teléfono: 7621141313</p>
             <p>Correo: angelica.hernandez.jaimes01@gmail.com</p>
             <p><a href="https://www.linkedin.com/in/angelica-hernandez-jaimes" target="_blank">Linkedin</a> | <a href="" target="_blank">Github</a></p>
         </div>
-        <div>
-            <h3>Educación</h3>
+        <br>
+        <hr>
+        <div class="container">
+            <h3 id="edu">Educación</h3>
             <div>
                 <table>
                     <tr>
-                        <td>Uni</td>
-                        <td>Año</td>
+                        <td>Desarrolladora Java FullStack</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Generation México</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -50,11 +57,29 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Uni</td>
-                        <td>Año</td>
+                        <td>Licenciatura en Tecnología</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>FES UNAM Cuautitlán</td>
                     </tr>
                     <tr>
                         <td colspan="2"><ul><li>Descrpción</li></ul></td>
+                    </tr>
+                    <tr>
+                        <td>Carrera técnica en Programación</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>DGETI CBTis no.82</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <ul>
+                                <li>Descrpción</li>
+                                <li>2</li>
+                            </ul>
+                        </td>
                     </tr>
                 </table>
             </div>
@@ -84,14 +109,19 @@
                 </div>
             </div>
         </div>
-        <div>
-            <h3>Experiencia laboral/profesional</h3>
+        <br>
+        <hr>
+        <div class="container">
+            <h3 id="exp-lab">Experiencia laboral/profesional</h3>
             <div>
                 <div>
                     <table>
                         <tr>
-                            <td>Uni</td>
-                            <td>Año</td>
+                            <td>Auxiliar de Recursos Humanos</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Hospital General Adolfo Prieto</td>
                         </tr>
                         <tr>
                             <td colspan="2">
@@ -101,15 +131,21 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Uni</td>
-                            <td>Año</td>
+                            <td>Auxiliar de Mantenimiento</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Hospital General Adolfo Prieto</td>
                         </tr>
                         <tr>
                             <td colspan="2"><ul><li>Descrpción</li></ul></td>
                         </tr>
                         <tr>
-                            <td>Uni</td>
-                            <td>Año</td>
+                            <td>Colaboradora en Pryecto PAPIME PE106321: Experimentos y herramientas informáticas para física moderna en un modelo educativo híbrido</td>
+                            <td>2022</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">FES UNAM Cuautitlán</td>
                         </tr>
                         <tr>
                             <td colspan="2"><ul><li>Descrpción</li></ul></td>
@@ -118,8 +154,10 @@
                 </div>
             </div>
         </div>
-        <div>
-            <h3>Skills</h3>
+        <br>
+        <hr>
+        <div class="container">
+            <h3 id="skills">Skills</h3>
             <div>
                 <table>
                     <thead>
@@ -153,26 +191,36 @@
                 </table>
             </div>
         </div>
-        <div>
-            <h3>Certificaciones/Cursos</h3>
+        <br>
+        <hr>
+        <div class="container">
+            <h3 id="cursos">Certificaciones/Cursos</h3>
             <div>
                 <table>
                     <tr>
-                            <th colspan="2">Soft</th>
+                            <th colspan="2">Academia Ágil®. Curso "La Semilla Ágil: Contexto de Scrum"</th>
+                            <th>2024</th>
                     </tr>
                     <tr>
-                        <td>a</td>
-                        <td>b</td>
+                        <td>ACADEMIA ÁGIL®</td>
+                        <td>https://credsverse.com/credentials/72564d90-4f22-46ec-bbaa-8f17f2b1799a?preview=2</td>
                     </tr>
                 </table>
             </div>
         </div>
-        <div>
-            <h3>Idiomas</h3>
+        <br>
+        <hr>
+        <div class="container" >
+            <h3 id="idiomas">Idiomas</h3>
             <div>
-                <p></p>
+                <p>Español: Nativo</p>
+                <p>Inglés: Intermedio - B2</p>
+                <p>Italiano: Básico</p>
             </div>
         </div>
+        <br>
+        <hr>
+        <h4>Bonus</h4>
     </div>
 </body>
 </html>
