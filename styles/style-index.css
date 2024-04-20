@@ -1,0 +1,82 @@
+#bod{
+    background-color:;
+}
+#boton-nav{
+    margin-right: auto;
+    border: 1px;
+    border-color: rgb(165, 114, 212);
+    background-color:rgb(152, 152, 216);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color:rgb(161, 197, 185);
+    box-sizing:unset;
+
+    justify-content: center;
+}
+span.navbar-toggler-icon{
+    width: auto;
+}
+div#d-nav{
+    background-color: rgb(144, 113, 201);
+}
+.nav-link {
+    color: black;
+}
+a:-webkit-any-link {
+    color:azure;
+    cursor: pointer;
+    text-decoration:none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgb(187, 172, 201);
+}
+a:visited {
+    color: azure;
+  }
+  a:focus {
+    background: rgb(187, 172, 201);
+  }
+  
+  a:hover {
+    background: rgba(187, 172, 201, 0.445);
+    border-radius: 10px;
+  }
+
+  a:active {
+    color: rgb(187, 172, 201);
+  }
+#ul-nav1,#ul-nav2,#ul-nav3,#ul-nav4,#ul-nav5,#ul-nav6{
+    color: rgb(228, 193, 207);
+    -webkit-tap-highlight-color:rgb(187, 172, 201);
+}
+/*h1{
+    font-size: 45px;
+}
+
+#en-name{
+    color: rgba(32, 53, 146, 0.979);
+}
+hr{
+    height: 4px;
+    color: blue;
+    background-color:rgba(64, 140, 184, 0.979);
+}
+
+#d-nav{
+    
+}
+/*p{
+    margin-top: 0;
+    margin-bottom: 0;
+}*/
+/*
+.container{
+
+}
+
+ul{
+    margin-top: 0;
+}
+
+#navbarSupportedContent{
+    color: blueviolet;
+}*/
