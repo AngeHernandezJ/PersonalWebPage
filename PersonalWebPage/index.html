@@ -12,8 +12,8 @@
     <h1>Personal Webpage: <span id="en-name">Angelica Hernández Jaimes</span></h1>
     <br>
     <hr>
-    <div  id="d-cv">
-        <div id="d-nav">
+    <div  id="d-cv" class="container-fluid">
+        <div id="d-nav" class="container-fluid">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <div>
@@ -67,72 +67,57 @@
         </div>
         <hr>
         <br>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div id="d-inf" class="col-8 border">
+                <div id="d-inf" class="col-8">
                     <h3 id="inf-cont">Información de contacto</h3>
                     <p>Angelica Hernández Jaimes</p>
                     <p>Número de teléfono: 7621141313</p>
                     <p>Correo: angelica.hernandez.jaimes01@gmail.com</p>
                     <p><a href="https://www.linkedin.com/in/angelica-hernandez-jaimes" target="_blank">Linkedin</a> | <a href="https://github.com/AngeHernandezJ" target="_blank">Github</a></p>
                 </div>
-                <div class="col-4 border d-foto">
-                    <img id="Foto-perfil" class="rounded mx-auto d-block" src="./assets/Foto_Angy.jpg" alt="Foto perfil">
+                <div class="col-4 d-foto">
+                    <img id="Foto-perfil" class="rounded mx-auto d-block" src="./assets/Foto_Angy" alt="Foto perfil">
                     <div class="middle">
                         <div class="text">Tecnóloga Angelica</div></div>
                 </div>
             </div>
-            
-            
         </div>
         <br>
         <hr>
-        <div class="container">
+        <div id="d-edu" class="container-fluid">
             <h3 id="edu">Educación</h3>
-            <div class="row border">
-                <div class="col-6 border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates architecto nulla nihil nemo? Fuga accusamus veritatis sapiente ab amet saepe, nihil, soluta neque animi inventore ratione? Ullam magni eveniet soluta.</div>
-                <div class="col-6 border">a</div>
-                <table>
-                    <tr>
-                        <td>Desarrolladora Java FullStack</td>
-                        <td>2024</td>
-                    </tr>
-                    <tr>
-                        <td>Generation México</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <ul>
-                                <li>Descrpción</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Licenciatura en Tecnología</td>
-                        <td>2023</td>
-                    </tr>
-                    <tr>
-                        <td>FES UNAM Cuautitlán</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><ul><li>Descrpción</li></ul></td>
-                    </tr>
-                    <tr>
-                        <td>Carrera técnica en Programación</td>
-                        <td>2019</td>
-                    </tr>
-                    <tr>
-                        <td>DGETI CBTis no.82</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <ul>
-                                <li>Descrpción</li>
-                                <li>2</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+            <div class="row">
+                <div class="col-10">
+                    <h5>Desarrolladora Java FullStack</h4>
+                    <p>Generation México</p>
+                    <ul>
+                        <li>Manejo de herramientas y tecnologías para diseño y desarrollo de páginas y sitios web responsivos con conexión a bases de datos en servicios de la nube.</li>
+                    </ul>
+                </div>
+                <div class="col-2">2024</div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <h5>Licenciatura en Tecnología</h4>
+                    <p>FES UNAM Cuautitlán</p>
+                    <ul>
+                        <li>Manejo de diversas plataformas y tecnologías para buscar la mejora e innovación de productos, procesos y técnicas, enfocado a la investigación.</li>
+                    </ul>
+                </div>
+                <div class="col-2">2023</div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <h5>Carrera técnica en Programación</h4>
+                    <p>DGETI CBTis no.82</p>
+                    <ul>
+                        <li>Mantenimiento e instalación de sistemas operativos Windows y Linux.</li>
+                        <li>Diseño de aplicaciones móviles Android y páginas web.</li>
+                        <li>Administración y configuración de redes locales. Desarrollo e instalación de software de aplicación utilizando programación estructurada y programación orientada a objetos, con almacenamiento persistente de datos.</li>
+                    </ul>
+                </div>
+                <div class="col-2">2019</div>
             </div>
             <!--<div>
                 <h3>Proyectos académicos</h3>
@@ -162,7 +147,7 @@
         </div>
         <br>
         <hr>
-        <div class="container">
+        <div id="d-exp" class="container-fluid">
             <h3 id="exp-lab">Experiencia laboral/profesional</h3>
             <div>
                 <div>
@@ -207,7 +192,7 @@
         </div>
         <br>
         <hr>
-        <div class="container">
+        <div id="d-skills" class="container-fluid">
             <h3 id="skills">Skills</h3>
             <div>
                 <table>
@@ -244,7 +229,7 @@
         </div>
         <br>
         <hr>
-        <div class="container">
+        <div id="d-cursos" class="container-fluid">
             <h3 id="cursos">Certificaciones/Cursos</h3>
             <div>
                 <table>
@@ -261,9 +246,12 @@
         </div>
         <br>
         <hr>
-        <div class="container" >
+        <div id="d-cursos" class="container-fluid" >
             <h3 id="idiomas">Idiomas</h3>
-            <div>
+            <div class="row">
+                <div class="col-4 border">Español: Nativo</div>
+                <div class="col-4 border">Inglés: Intermedio - B2</div>
+                <div class="col-4 border">Italiano: Básico</div>
                 <p>Español: Nativo</p>
                 <p>Inglés: Intermedio - B2</p>
                 <p>Italiano: Básico</p>
