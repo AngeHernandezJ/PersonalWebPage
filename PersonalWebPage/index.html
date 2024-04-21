@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro-Wen-N</title>
+    <title>Intro-Web-N</title>
     <link rel="stylesheet" href="./styles/style-index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -31,7 +31,7 @@
                         <a id="ul-nav2" class="nav-link" href="#edu">Educación</a>
                       </li>
                       <li class="nav-item">
-                        <a id="ul-nav3" class="nav-link" href="#exp-lab">Experiencia laboral-profesional</a>
+                        <a id="ul-nav3" class="nav-link" href="#exp-lab">Experiencia profesional</a>
                       </li>
                       <li class="nav-item">
                         <a id="ul-nav4" class="nav-link" href="#skills">Skills</a>
@@ -43,9 +43,9 @@
                         <a id="ul-nav6" class="nav-link" href="#idiomas">Idiomas</a>
                       </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    <form id="cflex" class="d-flex" role="search">
+                      <input id="caja-search" class="form-control me-2" type="search" placeholder="Búsqueda" >
+                      <button id="boton-search" class="btn btn-outline-success border" type="submit">Buscar</button>
                     </form>
                   </div>
                 </div>
@@ -68,17 +68,30 @@
         <hr>
         <br>
         <div class="container">
-            <h3 id="inf-cont">Información de contacto</h3>
-            <p>Angelica Hernández Jaimes</p>
-            <p>Número de teléfono: 7621141313</p>
-            <p>Correo: angelica.hernandez.jaimes01@gmail.com</p>
-            <p><a href="https://www.linkedin.com/in/angelica-hernandez-jaimes" target="_blank">Linkedin</a> | <a href="" target="_blank">Github</a></p>
+            <div class="row">
+                <div id="d-inf" class="col-8 border">
+                    <h3 id="inf-cont">Información de contacto</h3>
+                    <p>Angelica Hernández Jaimes</p>
+                    <p>Número de teléfono: 7621141313</p>
+                    <p>Correo: angelica.hernandez.jaimes01@gmail.com</p>
+                    <p><a href="https://www.linkedin.com/in/angelica-hernandez-jaimes" target="_blank">Linkedin</a> | <a href="https://github.com/AngeHernandezJ" target="_blank">Github</a></p>
+                </div>
+                <div class="col-4 border d-foto">
+                    <img id="Foto-perfil" class="rounded mx-auto d-block" src="./assets/Foto_Angy.jpg" alt="Foto perfil">
+                    <div class="middle">
+                        <div class="text">Tecnóloga Angelica</div></div>
+                </div>
+            </div>
+            
+            
         </div>
         <br>
         <hr>
         <div class="container">
             <h3 id="edu">Educación</h3>
-            <div>
+            <div class="row border">
+                <div class="col-6 border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates architecto nulla nihil nemo? Fuga accusamus veritatis sapiente ab amet saepe, nihil, soluta neque animi inventore ratione? Ullam magni eveniet soluta.</div>
+                <div class="col-6 border">a</div>
                 <table>
                     <tr>
                         <td>Desarrolladora Java FullStack</td>

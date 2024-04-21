@@ -1,11 +1,11 @@
 #bod{
-    background-color:;
+    background-color:#bb8493d8;
 }
 #boton-nav{
     margin-right: auto;
     border: 1px;
-    border-color: rgb(165, 114, 212);
-    background-color:rgb(152, 152, 216);
+    border-color: #86469C;
+    background-color:#BC7FCD;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color:rgb(161, 197, 185);
     box-sizing:unset;
@@ -17,10 +17,9 @@ span.navbar-toggler-icon{
 }
 div#d-nav{
     background-color: rgb(144, 113, 201);
+    font-size: 18px;
 }
-.nav-link {
-    color: black;
-}
+
 a:-webkit-any-link {
     color:azure;
     cursor: pointer;
@@ -34,6 +33,7 @@ a:visited {
   }
   a:focus {
     background: rgb(187, 172, 201);
+    border-radius: 10px;
   }
   
   a:hover {
@@ -43,10 +43,76 @@ a:visited {
 
   a:active {
     color: rgb(187, 172, 201);
+    border-radius: 10px;
   }
 #ul-nav1,#ul-nav2,#ul-nav3,#ul-nav4,#ul-nav5,#ul-nav6{
-    color: rgb(228, 193, 207);
+    color: #FFCDEA;
     -webkit-tap-highlight-color:rgb(187, 172, 201);
+    border-radius: 10px;
+    padding-right: 15px;
+}
+#caja-search{
+    background-color: #ffcdea7c;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+#cflex{
+    color: aliceblue;
+    border-color: azure;
+}
+#boton-search{
+    color: aliceblue;
+}
+#d-inf{
+    font-size: 20px;
+    color: #3a1930;
+}
+
+#Foto-perfil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+}
+
+@media (max-width:700px){
+    #Foto-perfil{
+        width: 250px;
+    }
+    #d-inf{
+        font-size: 15px;
+    }
+}
+
+.d-foto{
+    position: relative;
+}
+
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+.d-foto:hover #Foto-perfil{
+    opacity: 0.3;
+}
+.d-foto:hover .middle {
+    opacity: 1;
+  }
+
+.text {
+    background-color: #704264;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 12px;
 }
 /*h1{
     font-size: 45px;
